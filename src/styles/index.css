@@ -1,0 +1,56 @@
+.html{
+    scroll-behavior:smooth;
+}
+
+.contenidoIndex{
+    display: grid;
+    grid-template-columns: repeat(3,33.34%);
+    gap: 2rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.serviciosIndex{
+    background: rgb(172, 172, 172);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetasServicios{
+    width: 70%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-services{
+    width: 150px;
+}
+
+.pieIndex{
+    background: black;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidoPie{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 5px white solid;
+}
